@@ -34,7 +34,7 @@ $message = isset($_POST["message"]) ? $_POST["message"] : null;
 $fichero = 'landing video españa.csv';//nombre archivo ya creado
 //crear linea de datos separado por coma
 $fecha=date("Y-m-d H:i:s");
-$linea = $fecha.";".$name.";".$email.$codigo.";".$phone.";".$message."\n";
+$linea = $fecha.";".$name.";".$email.";" .$codigo . $phone.";".$message."\n";
 // Escribir la linea en el fichero
 file_put_contents($fichero, $linea, FILE_APPEND | LOCK_EX);
 //fin grabar datos
