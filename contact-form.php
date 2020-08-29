@@ -14,7 +14,7 @@ require 'vendor/autoload.php';
 $to1=array();
 $to2=array();
 // Enter your email address. If you need multiple email recipes simply add a comma: contacto@chimpancedigital.com.ar
-$to = "sdesigncba@gmail.com";
+$to = "contacto@chimpancedigital.com.ar";
 
 // Form Fields
 $name = isset($_POST["name"]) ? $_POST["name"] : null;
