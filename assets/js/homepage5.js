@@ -17,7 +17,7 @@ $(document).ready(function(){
 		navigation: true,
 		licenseKey: '1677A455-FB654DF5-84C89E6A-99874B08',
 		css3: true,
-		navigationTooltips: ['Inicio', 'Tipos', 'Características', 'Trabajos', 'Testimonios', 'Contacto'],
+		navigationTooltips: ['Info', 'Tipos', 'Características', 'Trabajos', 'Testimonios', 'Contacto'],
 		responsiveWidth: 767,
     	showActiveTooltip: true
 	});
